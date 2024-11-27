@@ -188,6 +188,14 @@ background-repeat: repeat-x;
 
 /* card css */
 
+.card img{
+/* background-size: contain;
+height: 30vh;
+width: 150px;
+mix-blend-mode: multiply; */
+
+}
+
 
  
 
