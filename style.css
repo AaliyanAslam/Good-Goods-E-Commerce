@@ -2,10 +2,110 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+/* overflow: hidden; */
 
 }
 
-/* nav css */
+@media only screen and (max-width: 992px){
+
+  .welcome-register{
+display: none;
+    
+    
+    }
+
+}
+@media only screen and (min-width: 1050px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 20px;  
+  
+}
+
+}
+@media only screen and (min-width: 1080px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 30px;  
+  
+}
+
+}
+@media only screen and (min-width: 1150px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 50px;  
+  
+}
+
+}
+@media only screen and (min-width: 1230px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 80px;  
+  
+}
+
+}
+@media only screen and (min-width: 1300px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 110px;  
+  
+}
+
+}
+@media only screen and (min-width: 1360px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 135px;  
+  
+}
+
+}
+@media only screen and (min-width: 1412px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 155px;  
+  
+}
+
+}
+@media only screen and (min-width: 1550px){
+
+ul{
+
+  display: flex;
+  justify-content: space-between;
+margin-left: 195px;  
+  
+}
+
+}
+
+
+
 
 
 @font-face {
@@ -15,10 +115,30 @@ box-sizing: border-box;
 
 /* nav css */
 
+
 .navbar-brand  {
 font-family: Arial, Helvetica, sans-serif;
 color: white !important;
 font-weight: 500;
+}
+
+.welcome-register{
+  position: relative;
+  right: -2px;
+color: white;
+font-size: 12px;
+cursor: pointer;
+}
+
+.second-line-signin{
+position: relative;
+/* position: fixed; */
+top: 15px;
+right: 50px;
+font-weight: bold;
+
+
+
 }
 .double-check-icon{
 
@@ -26,6 +146,13 @@ font-weight: 500;
 }
 .bar-icon{
   color: white;
+}
+.user-logo{
+
+  color: white;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
 }
 .nav-item a {
 
@@ -47,7 +174,7 @@ right: 55px;
 
 form.d-flex{
 
-  width: 70%;
+  width: 64%;
 }
 
  
