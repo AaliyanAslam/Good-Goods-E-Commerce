@@ -203,7 +203,91 @@ border-radius: 12px;
 border: none;
 }
 
- 
+ /* cart */
+ .cart-icon-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.cart-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-count-2 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-popup {
+  position: fixed;
+  /* bottom: 10px; */
+  top: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 1000;
+}
+
+.alert-popup.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* image zoom */
+.card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth zoom transition */
+}
+
+.card:hover img {
+  transform: scale(1); /* Zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Optional shadow for emphasis */
+}
 
 
+/* banner  */
+
+.banner img {
+  background-size: contain;
+  height: 70vh;
+  width: 100%;
+
+
+
+}
  
