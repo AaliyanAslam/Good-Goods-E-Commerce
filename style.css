@@ -188,14 +188,20 @@ background-repeat: repeat-x;
 
 /* card css */
 
-.card img{
-/* background-size: contain;
-height: 30vh;
-width: 150px;
-mix-blend-mode: multiply; */
+.card-body p{
+
+background-color: rgba(255, 0, 0,1);
+color: white;
+border-radius: 7px;
+padding: 3px;
 
 }
-
+.card img{
+border-radius: 12px;
+}
+.card {
+border: none;
+}
 
  
 
