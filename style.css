@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/* nav css */
+
+
+@font-face {
+  font-family: "brand";
+  src: url("fonts/Permanent_Marker/PermanentMarker-Regular.ttf");
+}
+
+/* nav css */
+
+.navbar-brand  {
+font-family: Arial, Helvetica, sans-serif;
+color: white !important;
+font-weight: 500;
+}
+.double-check-icon{
+
+  color: white;
+}
+.bar-icon{
+  color: white;
+}
+.nav-item a {
+
+  color: white !important;
+}
+
+.container-fluid{
+display: flex;
+justify-content: space-between;
+
+}
+
+.search-btn{
+  color: black;
+position: relative;
+right: 55px;
+
+}
+
+form.d-flex{
+
+  width: 70%;
+}
+
+ 
+
+
+ 
