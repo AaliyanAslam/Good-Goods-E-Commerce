@@ -114,6 +114,73 @@ margin-left: 195px;
 }
 
 }
+@media only screen and (max-width: 474px){
+
+  .card-body a {
+    font-size: smaller;
+
+
+
+  }
+
+
+
+}
+@media only screen and (max-width: 454px){
+
+.deal-name h1{
+
+  font-size: larger;
+}
+.deal-name img{
+
+  height: 50px;
+  width: 50px;
+}
+
+
+}
+
+@media only screen and (max-width: 446px){
+
+  .card-body h5 {
+color: black;
+font-size: 14px;
+
+
+  }
+
+
+
+}
+@media only screen and (max-width: 434px){
+
+  .card-body a {
+    background-color: #28a745;
+    margin: 0;
+    padding: 4px 6px;
+
+
+
+  }
+
+
+
+}
+@media only screen and (max-width: 414px){
+
+  .card-body a {
+    background-color: #28a745;
+    margin: 0;
+    padding: 4px 6px;
+
+
+
+  }
+
+
+
+}
 
 
 
@@ -198,6 +265,10 @@ background-repeat: repeat-x;
 }
 
 /* card css */
+
+
+
+
 
 .card-body p{
 
