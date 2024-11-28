@@ -156,7 +156,7 @@ font-size: 14px;
 @media only screen and (max-width: 434px){
 
   .card-body a {
-    background-color: #28a745;
+    background-color:  #0066ff;
     margin: 0;
     padding: 4px 6px;
 
@@ -170,7 +170,7 @@ font-size: 14px;
 @media only screen and (max-width: 414px){
 
   .card-body a {
-    background-color: #28a745;
+    background-color:  #0066ff;
     margin: 0;
     padding: 4px 6px;
 
@@ -278,6 +278,12 @@ border-radius: 7px;
 padding: 3px;
 
 }
+.card-body p span{
+  font-size: 13px;
+  margin-left: 10px;
+
+
+}
 .card img{
 border-radius: 12px;
 }
@@ -334,7 +340,6 @@ border: none;
 
 .alert-popup {
   position: fixed;
-  /* bottom: 10px; */
   top: 20px;
   background-color: #28a745;
   color: white;
@@ -351,14 +356,14 @@ border: none;
   opacity: 1;
   transform: translateY(0);
 }
-/* image zoom */
+
 .card img {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth zoom transition */
+  transition: transform 0.2s ease, box-shadow 0.3s ease; 
 }
 
 .card:hover img {
-  transform: scale(1); /* Zoom effect */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Optional shadow for emphasis */
+  transform: scale(1.1); /* Zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 
@@ -366,7 +371,7 @@ border: none;
 
 .banner img {
   background-size: contain;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
 
 
