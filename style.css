@@ -113,6 +113,7 @@ margin-left: 195px;
 
 }
 
+
 }
 @media only screen and (max-width: 474px){
 
@@ -201,6 +202,47 @@ font-size: 14px;
 }
 
 /* nav css */
+
+
+/* location logo */
+
+.location-logo i{
+  color: white;
+position: relative;
+right: 32px;
+top: 6px;
+cursor: pointer;
+
+
+}
+
+/* modal */
+
+.modal-header button {
+  margin-left: 300px;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+ padding-bottom: 4px;
+
+
+}
+.modal-header button:hover {
+  margin-left: 300px;
+  background-color: rgba(0, 0, 0, 0.568);
+  border: none;
+  border-radius: 3px ;
+
+
+}
+
+.modal-header span {
+ margin: 0 10px;
+ color: white;
+
+
+}
 
 
 .navbar-brand  {
@@ -376,14 +418,4 @@ border: none;
 }
 
 
-/* banner  */
 
-.banner img {
-  background-size: contain;
-  height: 60vh;
-  width: 100%;
-
-
-
-}
- 
