@@ -109,7 +109,7 @@
       </div>
       <div class="row">
         <!-- 1 -->
-        <div class="col-sm-12 col-md-6 col-lg-6 col-12 d-flex">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-12 d-flex">
           <div class="card" style="width: 11rem;">
             <img src="images/card1.avif" class="card-img-top" alt="...">
             <div class="card-body">
@@ -143,7 +143,7 @@
 
 
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-12 d-flex">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-12 d-flex">
           <!-- 4 -->
           <div class="card ms-2" style="width: 11rem;">
             <img src="images/card4.webp" class="card-img-top" alt="...">
@@ -188,6 +188,9 @@
   
   </section>
 
+
+  
+
   <!-- section 2 banner -->
 
   <section class="banner-details-more my-5">
@@ -220,7 +223,7 @@
     const alertPopup = document.querySelector('.alert-popup');
     const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
 
-    // Handle Add to Cart click
+   
     addToCartButtons.forEach(button => {
       button.addEventListener('click', () => {
         cartCount1++;
@@ -236,12 +239,11 @@
       });
     });
 
-    // Show alert animation
     function showAlertPopup() {
       alertPopup.classList.add('show');
       setTimeout(() => {
         alertPopup.classList.remove('show');
-      }, 2000); // Hide after 2 seconds
+      }, 2000); 
     }
 
 
