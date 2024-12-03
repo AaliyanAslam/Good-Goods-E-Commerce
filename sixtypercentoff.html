@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.html">
 </head>
 
 <body>
@@ -147,55 +148,16 @@
 
 
     <!-- slider  -->
-
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="images/slide.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Vibe Edge</h5>
-            <p>"Bold and powerful, the black earbuds deliver unmatched audio for every beat."</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="images/slide1.webp" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Aura Beat</h5>
-            <p>"Experience crystal-clear sound with our sleek white earbud – where style meets performance."
-
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/slide2.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Pulse Pro</h5>
-            <p>"Double the style, double the impact – premium black earbuds designed for true audiophiles."</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+<div class="container-fluid my-1" >
+    <img src="images/sixtypercentoffimg.webp" alt="" class="" style="height: 65vh; width: 100%; background-size: contain;">
+</div>
   </header>
 
   <section class="best-friday">
     <div class="container">
       <div class="deal-name my-5 text-center">
-        <h1>Best Friday | Todays's Deals <img src="images/clock.gif" alt=""></h1>
-        <hr style="width: 55%; margin: auto;">
+        <h1>Best 60% OFF | Deals <img src="images/clock.gif" alt=""></h1>
+        <hr style="width: 45%; margin: auto;">
       </div>
       <div class="row">
         <!-- 1 -->
@@ -287,17 +249,8 @@
 
     </div>
 
-    <!-- 60 off gif  -->
 
-    <div class="offgif">
-      <div id="gif">
-        &times;
-      </div>
-      <!-- <i class="fa-solid fa-cart-shopping"></i> -->
-      <a href="sixtypercentoff.html"><img src="images/60off.gif" alt="" class="img-fluid" id="img"></a>
-      <!-- <span class="cart-count-2">0</span> -->
-
-    </div>
+ 
 
   </section>
 
@@ -355,20 +308,7 @@
     }
 
 
-    // gif js
-
-    // Get the GIF element by ID
-    const gif = document.getElementById('gif');
-    const img = document.getElementById('img');
-
-    // Add an event listener for the 'click' event
-    gif.addEventListener('click', function () {
-      // Hide the GIF by setting its display to 'none'
-      img.style.display = 'none';
-      gif.style.display = 'none';
-
-    });
-
+   
 
 
 
